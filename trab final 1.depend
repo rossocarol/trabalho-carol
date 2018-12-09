@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1544367154 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel_impl.cpp
+	"painel.h"
+	<sstream>
+	<string>
+	<iostream>
+	"copo.h"
+
+1544018500 c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel.h
+	<FL/Fl.H>
+	"Copo.h"
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Repeat_Button.H>
+	<FL/Fl_Output.H>
+	<FL/Fl_Value_Output.H>
+	<FL/Fl_Progress.H>
+
+1297025172 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl.h
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+
+1294313098 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_cairo.h
+	<FL/Fl_Export.H>
+	<cairo-xlib.h>
+	<cairo-win32.h>
+	<cairo-quartz.h>
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_export.h
+
+1291663342 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"Xutf8.h"
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_types.h
+
+1297120936 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\xutf8.h
+	<X11/X.h>
+	<X11/Xlib.h>
+	<X11/Xlocale.h>
+	<X11/Xutil.h>
+
+1295205700 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\enumerations.h
+	"Fl_Export.H"
+	"fl_types.h"
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_double_window.h
+	"Fl_Window.H"
+
+1296381346 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_window.h
+	"Fl_Group.H"
+
+1293894114 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_group.h
+	"Fl_Widget.H"
+
+1293891880 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_widget.h
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_repeat_button.h
+	"Fl.H"
+	"Fl_Button.H"
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_button.h
+	"Fl_Widget.H"
+
+1293564826 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_output.h
+	"Fl_Input.H"
+
+1293095598 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_input.h
+	"Fl_Input_.H"
+
+1292834940 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_input_.h
+	"Fl_Widget.H"
+
+1291900744 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_value_output.h
+	"Fl_Valuator.H"
+
+1291855984 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_valuator.h
+	"Fl_Widget.H"
+
+1544289421 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\main.cpp
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Box.H>
+	"painel.h"
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_box.h
+	"Fl_Widget.H"
+
+1544018500 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel.cxx
+	"painel.h"
+
+1295892262 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_progress.h
+	"Fl_Widget.H"
+
+1544367111 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo_impl.cpp
+	"copo.h"
+
+1544367138 c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo.h
+	<FL/Fl.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Box.H>
+	<FL/Fl_Button.H>
+
+1544367138 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo.cxx
+	"copo.h"
+	<FL/Fl_Image.H>
+
+1296383080 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_image.h
+	"Enumerations.H"
+

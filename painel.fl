@@ -1,0 +1,44 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0300 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include "Copo.h"} {selected public global
+} 
+
+class ControleJanela {open
+} {
+  decl {ControleJanelaCopo copo;} {public local
+  }
+  Function {ControleJanela()} {open
+  } {
+    Fl_Window Painel {open
+      xywh {164 187 398 387} type Double color 7 hide
+    } {
+      Fl_Repeat_Button agua {
+        label AGUA
+        callback {this->botaoAgua();}
+        xywh {130 240 145 55} box GTK_ROUND_DOWN_BOX color 6 when 8
+      }
+      Fl_Repeat_Button gelo {
+        label GELO
+        xywh {130 305 145 55} box GTK_ROUND_DOWN_BOX color 6
+      }
+      Fl_Output mensagem {
+        xywh {80 175 250 55}
+      }
+      Fl_Value_Output temp {
+        label {TEMPERATURA ATUAL}
+        xywh {165 30 105 45} align 1
+      }
+      Fl_Progress NivelAgua {
+        xywh {100 105 220 45} selection_color 177
+      }
+    }
+  }
+  Function {abrirjanela()} {open
+  } {}
+  Function {fecharjanela()} {open
+  } {}
+  Function {botaoAgua()} {open
+  } {}
+} 

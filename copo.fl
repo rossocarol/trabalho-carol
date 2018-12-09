@@ -1,0 +1,53 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0300 
+header_name {.h} 
+code_name {.cxx}
+class ControleJanelaCopo {open
+} {
+  Function {ControleJanelaCopo()} {open
+  } {
+    Fl_Window winCopo {
+      label copo open
+      xywh {34 57 379 400} type Double color 7 visible
+    } {
+      Fl_Box copo1 {
+        image {copo1.png} xywh {0 5 345 370}
+      }
+      Fl_Box copo2 {
+        image {copo2.png} xywh {25 15 300 350} hide
+      }
+      Fl_Button zerarcopo {
+        label esvaziar
+        callback {this->cbEsvaziar()}
+        xywh {275 355 90 30}
+      }
+      Fl_Box copo3 {
+        image {copo3.png} xywh {160 175 25 25} hide
+      }
+      Fl_Box copo4 {
+        image {copo4.png} xywh {160 175 25 25} hide
+      }
+      Fl_Box copo5 {
+        image {copo5.png} xywh {160 175 25 25} hide
+      }
+    }
+  }
+  Function {mostrarjanela1()} {open return_type void
+  } {}
+  Function {fecharJanela()} {open
+  } {}
+  Function {abrirJanela()} {open
+  } {}
+  Function {~ControleJanelaCopo()} {open
+  } {}
+  Function {mostrarjanela2()} {open
+  } {}
+  Function {cbEsvaziar()} {open selected
+  } {}
+  Function {mostrarjanela3()} {open
+  } {}
+  Function {mostrarjanela4()} {open
+  } {}
+  Function {mostrarjanela5()} {open
+  } {}
+} 

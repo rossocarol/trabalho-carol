@@ -1,19 +1,23 @@
 # depslib dependency file v1.0
-1544367154 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel_impl.cpp
+1544405890 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel_impl.cpp
 	"painel.h"
 	<sstream>
 	<string>
 	<iostream>
 	"copo.h"
+	<FL/fl_ask.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
 
-1544018500 c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel.h
+1544405087 c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel.h
 	<FL/Fl.H>
 	"Copo.h"
 	<FL/Fl_Double_Window.H>
 	<FL/Fl_Repeat_Button.H>
-	<FL/Fl_Output.H>
 	<FL/Fl_Value_Output.H>
 	<FL/Fl_Progress.H>
+	<FL/Fl_Button.H>
 
 1297025172 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl.h
 	<FL/Fl_Cairo.H>
@@ -104,25 +108,28 @@
 1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_box.h
 	"Fl_Widget.H"
 
-1544018500 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel.cxx
+1544405087 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\painel.cxx
 	"painel.h"
 
 1295892262 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_progress.h
 	"Fl_Widget.H"
 
-1544367111 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo_impl.cpp
+1544395373 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo_impl.cpp
 	"copo.h"
 
-1544367138 c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo.h
+1544395226 c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo.h
 	<FL/Fl.H>
 	<FL/Fl_Double_Window.H>
 	<FL/Fl_Box.H>
 	<FL/Fl_Button.H>
 
-1544367138 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo.cxx
+1544395226 source:c:\users\carol\onedrive\햞ea de trabalho\trabalho final\1\trab final 1\copo.cxx
 	"copo.h"
 	<FL/Fl_Image.H>
 
 1296383080 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_image.h
+	"Enumerations.H"
+
+1290982000 c:\users\carol\downloads\codeblocks-ep\sdk\fltk\include\fl\fl_ask.h
 	"Enumerations.H"
 

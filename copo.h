@@ -21,6 +21,7 @@ public:
   Fl_Box *copo3;
   Fl_Box *copo4;
   Fl_Box *copo5;
+  Fl_Box *gelo;
   void mostrarjanela1();
   void fecharJanela();
   void abrirJanela();
@@ -30,5 +31,8 @@ public:
   void mostrarjanela3();
   void mostrarjanela4();
   void mostrarjanela5();
+  void gelo1();
+  void gelo2();
+  void mostrargelo();
 };
 #endif

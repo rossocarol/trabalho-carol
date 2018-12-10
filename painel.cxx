@@ -9,6 +9,20 @@ void ControleJanela::cb_agua(Fl_Repeat_Button* o, void* v) {
   ((ControleJanela*)(o->parent()->user_data()))->cb_agua_i(o,v);
 }
 
+void ControleJanela::cb_encherNivel_i(Fl_Button*, void*) {
+  this->cbEncher();
+}
+void ControleJanela::cb_encherNivel(Fl_Button* o, void* v) {
+  ((ControleJanela*)(o->parent()->user_data()))->cb_encherNivel_i(o,v);
+}
+
+void ControleJanela::cb_Gelo_i(Fl_Button*, void*) {
+  this->btGelo();
+}
+void ControleJanela::cb_Gelo(Fl_Button* o, void* v) {
+  ((ControleJanela*)(o->parent()->user_data()))->cb_Gelo_i(o,v);
+}
+
 ControleJanela::ControleJanela() {
   { Painel = new Fl_Double_Window(398, 387);
     Painel->color(FL_BACKGROUND2_COLOR);
@@ -19,18 +33,24 @@ ControleJanela::ControleJanela() {
       agua->callback((Fl_Callback*)cb_agua);
       agua->when(FL_WHEN_ENTER_KEY);
     } // Fl_Repeat_Button* agua
-    { gelo = new Fl_Repeat_Button(130, 305, 145, 55, "GELO");
-      gelo->box(FL_GTK_ROUND_DOWN_BOX);
-      gelo->color((Fl_Color)6);
-    } // Fl_Repeat_Button* gelo
-    { mensagem = new Fl_Output(80, 175, 250, 55);
-    } // Fl_Output* mensagem
     { temp = new Fl_Value_Output(165, 30, 105, 45, "TEMPERATURA ATUAL");
       temp->align(Fl_Align(FL_ALIGN_TOP));
     } // Fl_Value_Output* temp
     { NivelAgua = new Fl_Progress(100, 105, 220, 45);
       NivelAgua->selection_color((Fl_Color)177);
     } // Fl_Progress* NivelAgua
+    { encherNivel = new Fl_Button(300, 270, 75, 70, "ENCHER");
+      encherNivel->box(FL_GTK_ROUND_DOWN_BOX);
+      encherNivel->color(FL_BACKGROUND2_COLOR);
+      encherNivel->callback((Fl_Callback*)cb_encherNivel);
+    } // Fl_Button* encherNivel
+    { Gelo = new Fl_Button(125, 305, 150, 55, "GELO");
+      Gelo->box(FL_GTK_ROUND_DOWN_BOX);
+      Gelo->color((Fl_Color)6);
+      Gelo->callback((Fl_Callback*)cb_Gelo);
+    } // Fl_Button* Gelo
+    { nvagua = new Fl_Value_Output(245, 180, 35, 35, "RESERVAT\303\223RIO COM ");
+    } // Fl_Value_Output* nvagua
     Painel->end();
   } // Fl_Double_Window* Painel
 }

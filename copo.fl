@@ -8,7 +8,7 @@ class ControleJanelaCopo {open
   } {
     Fl_Window winCopo {
       label copo open
-      xywh {34 57 379 400} type Double color 7 visible
+      xywh {640 56 382 398} type Double color 7 visible
     } {
       Fl_Box copo1 {
         image {copo1.png} xywh {0 5 345 370}
@@ -24,11 +24,14 @@ class ControleJanelaCopo {open
       Fl_Box copo3 {
         image {copo3.png} xywh {160 175 25 25} hide
       }
-      Fl_Box copo4 {
+      Fl_Box copo4 {selected
         image {copo4.png} xywh {160 175 25 25} hide
       }
       Fl_Box copo5 {
         image {copo5.png} xywh {160 175 25 25} hide
+      }
+      Fl_Box gelo {
+        image {20181209_191505.png} xywh {95 245 35 25} hide
       }
     }
   }
@@ -42,12 +45,18 @@ class ControleJanelaCopo {open
   } {}
   Function {mostrarjanela2()} {open
   } {}
-  Function {cbEsvaziar()} {open selected
+  Function {cbEsvaziar()} {open
   } {}
   Function {mostrarjanela3()} {open
   } {}
   Function {mostrarjanela4()} {open
   } {}
   Function {mostrarjanela5()} {open
+  } {}
+  Function {gelo1()} {open
+  } {}
+  Function {gelo2()} {open
+  } {}
+  Function {mostrargelo()} {open
   } {}
 } 

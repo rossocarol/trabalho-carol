@@ -34,17 +34,12 @@ void ControleJanelaCopo::abrirJanela()
 {
     this->winCopo->show();
 }
+void ControleJanelaCopo::mostrargelo()
+{
+    this->gelo->show();
+}
 ControleJanelaCopo::~ControleJanelaCopo()
 {
     delete this->winCopo;
 }
-/*int ControleJanelaCopo::cbEsvaziar(int y)
-{
-    this->copo1->show();
-    this->copo2->hide();
-    this->copo3->hide();
-    this->copo4->hide();
-    this->copo5->hide();
 
-    return y=0;
-}*/

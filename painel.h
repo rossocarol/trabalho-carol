@@ -6,9 +6,9 @@
 #include "Copo.h"
 #include <FL/Fl_Double_Window.H>
 #include <FL/Fl_Repeat_Button.H>
-#include <FL/Fl_Output.H>
 #include <FL/Fl_Value_Output.H>
 #include <FL/Fl_Progress.H>
+#include <FL/Fl_Button.H>
 
 class ControleJanela {
 public:
@@ -20,12 +20,23 @@ private:
   void cb_agua_i(Fl_Repeat_Button*, void*);
   static void cb_agua(Fl_Repeat_Button*, void*);
 public:
-  Fl_Repeat_Button *gelo;
-  Fl_Output *mensagem;
   Fl_Value_Output *temp;
   Fl_Progress *NivelAgua;
+  Fl_Button *encherNivel;
+private:
+  void cb_encherNivel_i(Fl_Button*, void*);
+  static void cb_encherNivel(Fl_Button*, void*);
+public:
+  Fl_Button *Gelo;
+private:
+  void cb_Gelo_i(Fl_Button*, void*);
+  static void cb_Gelo(Fl_Button*, void*);
+public:
+  Fl_Value_Output *nvagua;
   void abrirjanela();
   void fecharjanela();
   void botaoAgua();
+  void cbEncher();
+  void btGelo();
 };
 #endif

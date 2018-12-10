@@ -2,7 +2,7 @@
 version 1.0300 
 header_name {.h} 
 code_name {.cxx}
-decl {\#include "Copo.h"} {selected public global
+decl {\#include "Copo.h"} {public global
 } 
 
 class ControleJanela {open
@@ -12,19 +12,12 @@ class ControleJanela {open
   Function {ControleJanela()} {open
   } {
     Fl_Window Painel {open
-      xywh {164 187 398 387} type Double color 7 hide
+      xywh {212 42 398 387} type Double color 7 visible
     } {
       Fl_Repeat_Button agua {
         label AGUA
         callback {this->botaoAgua();}
         xywh {130 240 145 55} box GTK_ROUND_DOWN_BOX color 6 when 8
-      }
-      Fl_Repeat_Button gelo {
-        label GELO
-        xywh {130 305 145 55} box GTK_ROUND_DOWN_BOX color 6
-      }
-      Fl_Output mensagem {
-        xywh {80 175 250 55}
       }
       Fl_Value_Output temp {
         label {TEMPERATURA ATUAL}
@@ -33,6 +26,20 @@ class ControleJanela {open
       Fl_Progress NivelAgua {
         xywh {100 105 220 45} selection_color 177
       }
+      Fl_Button encherNivel {
+        label ENCHER
+        callback {this->cbEncher();}
+        xywh {300 270 75 70} box GTK_ROUND_DOWN_BOX color 7
+      }
+      Fl_Button Gelo {
+        label GELO
+        callback {this->btGelo();}
+        xywh {125 305 150 55} box GTK_ROUND_DOWN_BOX color 6
+      }
+      Fl_Value_Output nvagua {
+        label {RESERVATÓRIO COM } selected
+        xywh {245 180 35 35}
+      }
     }
   }
   Function {abrirjanela()} {open
@@ -40,5 +47,9 @@ class ControleJanela {open
   Function {fecharjanela()} {open
   } {}
   Function {botaoAgua()} {open
+  } {}
+  Function {cbEncher()} {open
+  } {}
+  Function {btGelo()} {open
   } {}
 } 
